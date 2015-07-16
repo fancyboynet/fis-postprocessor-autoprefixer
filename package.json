@@ -1,7 +1,7 @@
 {
   "name": "fis-postprocessor-autoprefixer",
   "description": "A optimizer for fis to autoprefixer css user postcss/autoprefixer.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "ZoomZhao <zoom.zhao@gmail.com>",
   "keywords": [
     "fis",
