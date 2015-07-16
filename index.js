@@ -1,8 +1,8 @@
 'use strict';
 
 var autoprefixer = require('autoprefixer-core');
-
+var postcss      = require('postcss');
 module.exports = function(content, file, conf){
-  var processor = autoprefixer(conf);
-  return processor.process(content, conf).css;
+	var temp = autoprefixer(conf);
+  	return postcss([temp]).process(content).css;
 };
